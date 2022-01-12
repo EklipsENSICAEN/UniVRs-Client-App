@@ -8,15 +8,6 @@
     android:background="#6fa8dc"
     tools:context=".MainActivity">
 
-    <!--TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" /-->
-
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
@@ -41,7 +32,7 @@
         android:gravity="center"
         android:hint="@string/name"
         android:layout_centerHorizontal="true"
-        android:textColorHint="@color/white"
+        android:textColorHint="@drawable/selector"
         android:backgroundTint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.184"
@@ -84,7 +75,7 @@
         android:id="@+id/mail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="280dp"
         android:ems="10"
         android:hint="@string/mail"
         android:gravity="center"
@@ -101,7 +92,7 @@
         android:id="@+id/age"
         android:layout_width="140dp"
         android:layout_height="48dp"
-        android:layout_marginTop="380dp"
+        android:layout_marginTop="330dp"
         android:ems="10"
         android:hint="Age"
         android:inputType="number"
@@ -158,18 +149,28 @@
 
         <Button
             android:id="@+id/subscribe"
-            android:layout_width="match_parent"
+            android:layout_width="235dp"
             android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
             android:layout_gravity="left"
-            android:layout_marginBottom="5dp"
-            android:backgroundTint="#0077B6"
+            android:layout_marginStart="88dp"
+            android:layout_marginLeft="88dp"
+            android:layout_marginEnd="88dp"
+            android:layout_marginRight="88dp"
+            android:layout_marginBottom="177dp"
+            tools:ignore="TextContrastCheck"
+            android:backgroundTint="#FFFFFF"
             android:text="@string/subscribe"
-            android:textStyle="bold|italic" />
+            android:textColor="#0277BD"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
 
     </RelativeLayout>
-
 
 
 </RelativeLayout>

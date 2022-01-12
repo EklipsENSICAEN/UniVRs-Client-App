@@ -4,8 +4,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!--We are using this image
-     view to display our QR code-->
+    <ImageView
+        android:id="@+id/logoQrPage"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/qrcode"
+        app:layout_constraintBottom_toTopOf="@+id/idIVQrcode"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/logo"
+        />
+
+
     <ImageView
         android:id="@+id/idIVQrcode"
         android:layout_width="300dp"

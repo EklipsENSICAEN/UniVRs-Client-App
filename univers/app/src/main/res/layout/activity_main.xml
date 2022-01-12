@@ -6,6 +6,19 @@
     android:layout_height="match_parent"
     android:background="#6fa8dc">
 
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/qrcode"
+        app:layout_constraintBottom_toTopOf="@+id/welcome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/logo"
+        />
+
     <TextView
         android:id="@+id/welcome"
         android:layout_width="wrap_content"
@@ -13,7 +26,7 @@
         android:gravity="center"
         android:text="@string/welcome"
         android:textColor="#FFFFFF"
-        android:textSize="50sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

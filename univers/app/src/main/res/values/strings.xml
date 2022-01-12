@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">UniVRs</string>
-    <string name="title">Achat du PassVR</string>
+    <string name="title">Buy the pass</string>
     <string name="name">Nom</string>
-    <string name="firstName">Prénom</string>
+    <string name="firstName">Prenom</string>
     <string name="nickName">Pseudo</string>
-    <string name="subscribe">S\'inscrire</string>
+    <string name="subscribe">Generate</string>
     <string name="mail">E-mail</string>
     <string name="BuyPass">Buy the pass</string>
     <string name="welcome">Welcome to UniVRs</string>
