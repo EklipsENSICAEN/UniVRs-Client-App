@@ -6,11 +6,13 @@ L'application permet à l'utilisateur de d'acheter le pass UniVRs en s'inscrivan
 
 ## Fonctionnalités
 ### Page d'accueil
-![Page d'accueil](img/homepage.univrs.client.jpg)
+<img src="img/homepage.univrs.client.jpg" width="120" height="240">
+
 La page d'accueil contient un bouton qui invite l'utilisateur à acheter un pass UniVRs.
 
 ### Formulaire d'inscription
-![Formulaire d'inscription](img/subscriptionform.univrs.client.jpg)
+<img src="img/subscriptionform.univrs.client.jpg" width="120" height="240">
+
 Le formulaire d'inscription invite les utilisateurs à rentrer les informations suivantes :
 - nom
 - prénom
@@ -20,7 +22,8 @@ Le formulaire d'inscription invite les utilisateurs à rentrer les informations 
 Une fois ces informations remplies, l'utilisateur pourra appuyer sur le bouton de génération et ainsi obtenir son QR Code joueur.
 
 ### QR Code
-![QR Code](img/qrcode.univrs.client.jpg)
+<img src="img/qrcode.univrs.client.jpg" width="120" height="240">
+
 La page QR Code affiche le QR Code joueur à présenter à l'entreprise pour s'enregistrer.
 
 ## Technologies  
