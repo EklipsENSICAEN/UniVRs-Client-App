@@ -28,7 +28,8 @@ Une fois ces informations remplies, l'utilisateur pourra appuyer sur le bouton d
 La page QR Code affiche le QR Code joueur à présenter à l'entreprise pour s'enregistrer.
 
 ## Technologies  
-
+Java et XML pour Android.
+Ces technologies ciblent uniquement les utilisateurs Android mais sont abordées en cours.
 
 ## Données personnelles  
 Les données personnelles données à la connexion permettent de générer le QR Code lié au compte utilisateur.
