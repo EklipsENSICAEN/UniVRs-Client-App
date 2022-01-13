@@ -29,8 +29,8 @@ public class FormActivity extends AppCompatActivity {
                 Intent intent = new Intent(FormActivity.this, QRCodeActivity.class);
                 intent.putExtra("lastname", lastname.getText().toString());
                 intent.putExtra("forename", forename.getText().toString() );
-                intent.putExtra("email", pseudo.getText().toString());
-                intent.putExtra("pseudo", email.getText().toString());
+                intent.putExtra("pseudo", pseudo.getText().toString());
+                intent.putExtra("email", email.getText().toString());
                 intent.putExtra("age", age.getText().toString());
                 startActivity(intent);
             }
