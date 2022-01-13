@@ -30,6 +30,7 @@ La page QR Code affiche le QR Code joueur à présenter à l'entreprise pour s'e
 ## Technologies  
 Java et XML pour Android.
 Ces technologies ciblent uniquement les utilisateurs Android mais sont abordées en cours.
+Un développement sur des technologies multi plateforme est donc à planifier avant une mise en production.
 
 ## Données personnelles  
 Les données personnelles données à la connexion permettent de générer le QR Code lié au compte utilisateur.
