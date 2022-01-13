@@ -10,7 +10,7 @@ L'application permet à l'utilisateur de d'acheter le pass UniVRs en s'inscrivan
 
 ## Fonctionnalités
 ### Page d'accueil
-![Page d'accueil](img/Screenshot_2022-01-13-15-07-24-536_com.example.univers.jpg)
+![Page d'accueil](img/Screenshot_2022-01-13-15-07-24-536_com.example.univers.jpg =120x220)
 
 ## Technologies
 
