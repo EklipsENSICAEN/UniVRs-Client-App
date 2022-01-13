@@ -31,4 +31,5 @@ La page QR Code affiche le QR Code joueur à présenter à l'entreprise pour s'e
 
 
 ## Données personnelles  
-
+Les données personnelles connectées permettent de générer le QR Code lié au compte utilisateur.
+L'email, nom et prénom seront conservés pour permettre à l'utilisateur de s'identifier
