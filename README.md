@@ -13,7 +13,7 @@ La page d'accueil contient un bouton qui invite l'utilisateur à acheter un pass
 ### Formulaire d'inscription
 <img src="img/subscriptionform.univrs.client.jpg" width="250" height="542">
 
-Le formulaire d'inscription invite les utilisateurs à rentrer les informations suivantes :
+Le formulaire d'inscription invite les utilisateurs à renseigner les informations suivantes :
 - nom
 - prénom
 - pseudonyme
@@ -34,4 +34,6 @@ Un développement sur des technologies multi plateforme est donc à planifier av
 
 ## Données personnelles  
 Les données personnelles données à la connexion permettent de générer le QR Code lié au compte utilisateur.
-L'email, nom et prénom seront conservés pour permettre à l'utilisateur de s'identifier (il faut par la suite sauvegardé aussi un mot de passe).
+L'email sera conservé pour permettre à l'utilisateur de s'identifier (il faut par la suite sauvegardé aussi un mot de passe).
+Le pseudo sera conservé pour améliorer l'expérience utilisateur dans le salon VR.
+Les autres informations peuvent être éventuellement conservées pour un contrôle d'identité des clients.
